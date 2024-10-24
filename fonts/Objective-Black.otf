@@ -1,0 +1,254 @@
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your home - Our implementation</title>
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="preload" as="image" href="">
+</head>
+
+<body>
+    <div class="layout">
+        <header class="header">
+            <div class="header-inner container">
+                <div class="mobile-menu">
+                    <div class="mobile-btn"></div>
+                </div>
+                <nav class="header-nav">
+                    <div class="header-nav-list">
+                        <ul class="header-nav-list-column">
+                            <li class="header-nav-item"><a href="index.html">home</a></li>
+                            <li class="header-nav-item"><a href="index.html#gallery">Gallery</a></li>
+                            <li class="header-nav-item"><a href="index.html#services">Services</a></li>
+                        </ul>
+                        <ul class="header-nav-list-column">
+                            <li class="header-nav-item"><a href="index.html#team">Team</a></li>
+                            <li class="header-nav-item"><a href="index.html#benefits">Benefits</a></li>
+                            <li class="header-nav-item"><a href="index.html#contacts">Contacts</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header-icon">
+                    <img src="images/house-icon.png" alt="">
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-banner">
+                <div class="main-banner-inner container">
+                    <div class="main-banner-text">
+                        <h1 class="wow fadeInDown">Your home -
+                            <br>Our implementation</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="main-gallery" id="gallery">
+                <div class="main-gallery-inner container">
+                    <div class="main-gallery-list">
+                        <div class="main-gallery-list-item wow flipInX" data-wow-delay="0s">
+                            <img src="images/Master_bedroom-2_result.png" alt="">
+                        </div>
+                        <div class="main-gallery-list-item wow flipInX" data-wow-delay="0.5s">
+                            <img src="images/Livingroom-15_result.png" alt="">
+                        </div>
+                        <div class="main-gallery-list-item wow flipInX" data-wow-delay="1s">
+                            <img src="images/Livingroom_result.png" alt="">
+                        </div>
+                        <div class="main-gallery-list-item wow flipInX" data-wow-delay="1.5s">
+                            <img src="images/Master_bedroom-9_result.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-gallery-slider">
+                        <div class="main-gallery-slider-item">
+                            <img src="images/slide-1.png" alt="">
+                        </div>
+                        <div class="main-gallery-slider-item">
+                            <img src="images/slide-2.png" alt="">
+                        </div>
+                        <div class="main-gallery-slider-item">
+                            <img src="images/slide-3.png" alt="">
+                        </div>
+                        <div class="main-gallery-slider-item">
+                            <img src="images/slide-4.png" alt="">
+                        </div>
+                        <div class="main-gallery-slider-item">
+                            <img src="images/slide-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-services">
+                <div class="mmain-services-inner container">
+                    <h2 id="services">Services</h2>
+                    <div class="main-services-list">
+                        <div class="main-services-item wow fadeInDown" data-wow-delay="0s">
+                            <div class="main-services-item-title">
+                                <p class="main-services-item-number">1</p>
+                                <h3>Interior Design</h3>
+                            </div>
+                            <p class="main-services-item-text">Entrust the dream of an ideal space to us. together we
+                                will model a beautiful house.</p>
+                        </div>
+                        <div class="main-services-item wow fadeInDown" data-wow-delay="0.5s">
+                            <div class="main-services-item-title">
+                                <p class="main-services-item-number">2</p>
+                                <h3>Author's support</h3>
+                            </div>
+                            <p class="main-services-item-text">Trust but verify! We keep your style during construction.
+                            </p>
+                        </div>
+                        <div class="main-services-item wow fadeInDown" data-wow-delay="1s">
+                            <div class="main-services-item-title">
+                                <p class="main-services-item-number">3</p>
+                                <h3>Planning solution</h3>
+                            </div>
+                            <p class="main-services-item-text">Suitable for independents. Possibility to purchase plans
+                                with electrical and plumbing.</p>
+                        </div>
+                        <div class="main-services-item wow fadeInDown" data-wow-delay="1.5s">
+                            <div class="main-services-item-title">
+                                <p class="main-services-item-number">4</p>
+                                <h3>Construction works</h3>
+                            </div>
+                            <p class="main-services-item-text">We cooperate with three proven teams with different work
+                                budgets</p>
+                        </div>
+                        <div class="main-services-item wow fadeInDown" data-wow-delay="2s">
+                            <div class="main-services-item-title">
+                                <p class="main-services-item-number">5</p>
+                                <h3>Interior decorating</h3>
+                            </div>
+                            <p class="main-services-item-text">(Working with "WhiteBox" from the developer). The most
+                                pleasant thing is when the walls have already been erected and the draft is all done, we
+                                will help you choose the finishes, arrange the furniture and buy the light.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-team">
+                <div class="main-team-inner container">
+                    <h2 id="team">Team</h2>
+                    <div class="main-team-list">
+                        <div class="main-team-item wow flipInX" data-wow-delay="0s">
+                            <img src="images/brett.png" alt="">
+                        </div>
+                        <div class="main-team-item wow flipInX" data-wow-delay="0.5s">
+                            <img src="images/aria.png" alt="">
+                        </div>
+                        <div class="main-team-item wow flipInX" data-wow-delay="1s">
+                            <img src="images/cormac.png" alt="">
+                        </div>
+                        <div class="main-team-item wow flipInX" data-wow-delay="1.5s">
+                            <img src="images/belle.png" alt="">
+                        </div>
+                        <div class="main-team-item wow flipInX" data-wow-delay="2s">
+                            <img src="images/fabio.png" alt="">
+                        </div>
+                        <div class="main-team-item wow flipInX" data-wow-delay="2.5s">
+                            <img src="images/cristobal.png" alt="">
+                        </div>
+                        <div class="main-team-item wow flipInX" data-wow-delay="3s">
+                            <img src="images/darragh.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-benefits">
+                <div class="main-benefits-inner container">
+                    <h2 id="benefits">Benefits</h2>
+                    <div class="main-benefits-slider">
+                        <div class="main-benefits-slider-item">
+                            <div class="main-benefits-slider-item-icon">
+                                <img src="images/briefing.png" alt="">
+                            </div>
+                            <p>Studio experience 4 years, more than 27 completed projects, survived 3 crises and
+                                renovation
+                            </p>
+                        </div>
+                        <div class="main-benefits-slider-item">
+                            <div class="main-benefits-slider-item-icon">
+                                <img src="images/back-in-time.png" alt="">
+                            </div>
+                            <p>Save time, as the studio not only develops the interior design, but also takes over the
+                                implementation of the project
+                            </p>
+                        </div>
+                        <div class="main-benefits-slider-item">
+                            <div class="main-benefits-slider-item-icon">
+                                <img src="images/idea.png" alt="">
+                            </div>
+                            <p>Author's support of the project and free consultations throughout the entire period of
+                                implementation and completion of the project, which is included in our composition
+                            </p>
+                        </div>
+                        <div class="main-benefits-slider-item">
+                            <div class="main-benefits-slider-item-icon">
+                                <img src="images/gift-box.png" alt="">
+                            </div>
+                            <p>Dealer discounts for all finishing materials up to 25% purchased through our company
+                            </p>
+                        </div>
+                        <div class="main-benefits-slider-item">
+                            <div class="main-benefits-slider-item-icon">
+                                <img src="images/furnitures.png" alt="">
+                            </div>
+                            <p>Full estimate of finishing materials. Furniture, lighting, plumbing, moldings, decor,
+                                etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-contacts">
+                <div class="main-contacts-inner container">
+                    <h2 id="contacts">Contacts</h2>
+                    <div class="main-contacts-img">
+                        <img src="images/contact.png" alt="">
+                    </div>
+                    <div class="main-contact-text">
+                        <p>11 Dominion Rd, Etobicoke, ON M8W 1J5, Canada</p>
+                        <p>+1 416-611-8633 <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="31525e5f455052457155544242585d4754431f525e5c">[email&#160;protected]</a></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-inner container">
+                <nav class="footer-nav">
+                    <div class="footer-nav-list">
+                        <ul class="footer-nav-list-column">
+                            <li class="footer-nav-item header-nav-item"><a href="index.html">home</a></li>
+                            <li class="footer-nav-item header-nav-item"><a href="index.html#gallery">Gallery</a></li>
+                            <li class="footer-nav-item header-nav-item"><a href="index.html#services">Services</a></li>
+                        </ul>
+                        <ul class="footer-nav-list-column">
+                            <li class="footer-nav-item header-nav-item"><a href="index.html#team">Team</a></li>
+                            <li class="footer-nav-item header-nav-item"><a href="index.html#benefits">Benefits</a></li>
+                            <li class="footer-nav-item header-nav-item"><a href="index.html#contacts">Contacts</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="footer-icon">
+                    <img src="images/footer-icon.png" alt="">
+                </div>
+                <p class="footer-text">All rights reserved dessilver.com | 2022</p>
+            </div>
+        </footer>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
